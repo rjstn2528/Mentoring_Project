@@ -3,11 +3,6 @@
 
 
 
-<p align="center">
-<img width="720" height="405" alt="SMARTLIBRARY" src="https://github.com/user-attachments/assets/63deeadf-52b8-4df6-b396-f53ec3372cd0" />  
-</p>
-
-
 -----------------------------------------------------------------------------------------------------------------
 
 <br>
