@@ -141,52 +141,7 @@
  ┗ 📜smart_library.sql     # 초기 DB 스키마
 ```
 
-## 🧰 설치 및 실행
-
-### ✔ 필수 요구 사항
-* Java 11 (or newer)
-* Apache Tomcat v.9.0.108
-* Maven v.3.6.x (or newer)
-* Oracle Database
-* Your prefered IDE
-  \- Spring Tool Suite(STS)
-
-### ✔ 설정 변경
-**1. DB 설정 변경**
-```properties
-# src/main/resources/prop/db.properties
-# db.username=your_username
-# db.password=your_password
-db.driver=oracle.jdbc.driver.OracleDriver
-db.url=jdbc:oracle:thin:@localhost:1521:xe
-db.username=smart_library
-db.password=1234
-```
-
-**2. 메일 발송 설정 변경**
-```properties
-# src/main/resources/prop/mail.properties
-# gmail.username=your_gmail
-# gmail.password=your_password
-gmail.username=example@gmail.com
-gmail.password=abcd efgh igkl mnop
-```
-
-**3. 이미지 경로 변경**
-  1. BookController.java (파일 저장 경로)
-  ```java
-  // uploadPath = "your_upload_path";
-  private String uploadPath = "C:/Users/사용자명/Desktop/SmartLibrary/cover";
-  ```
-  2. servlet-context.xml (웹 접근 경로 매핑)
-  ```xml
-  <!-- location="your_uploadFile_location" -->
-  <resources mapping="/images/**" location="file:///C:/Users/사용자명/Desktop/SmartLibrary/cover/" />
-  ```   
-
-<br>
-
------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 
 
 
