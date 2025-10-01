@@ -89,7 +89,7 @@ Apache Tomcat / Oracle DB / Maven
 
 ## 🗃 프로젝트 구조
 ```
-📦smart_library
+📦Mentoring_Project
  ┣ 📂src/📂main/📂java
    ┣ 📂utils/                       # 페이지 검색
    ┣ 📂vo/                          # 회원 정보 , 회원 프로필
