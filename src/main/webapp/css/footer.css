@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+footer span{
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	margin: 100px;
+	padding: 50px;	
+}

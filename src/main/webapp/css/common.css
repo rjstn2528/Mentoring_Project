@@ -1,0 +1,593 @@
+/* 김도은 - 메인 영역 css */
+
+@charset "UTF-8";
+
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+
+	body {
+		background-color: #fbfaef;
+		text-align: center;
+		margin: 0 auto;
+		color: #5f5f5f;
+	
+	}
+	
+	section#main table.login {
+		width: 550px;
+		height: 350px;
+	}
+	
+	section#main table.login td {
+		height: 30px;
+	}
+	
+	section#main table{
+		border-collapse: collapse;
+		border-color: #96b6ed;
+		border-width: 2px;
+		background-color: #fdfdfd;
+		width: 550px;
+		min-height: 150px;
+		margin: 20px auto;
+		border-left: none;
+		border-right: none;
+	}
+	
+	section#main pre {
+		margin: 15px;
+	}
+	
+	
+	section#main table tr{
+		height: 30px;
+	}
+	
+	section#main table tr td{
+		text-align: left;
+	}
+	
+	section#main table#mentorT {
+		width: 550px;
+	}
+	
+	section#main table#mentorT tr td{
+		padding-left: 10px;
+	}
+	
+	section#main table#mentorT tr td#intro {
+		padding: 15px; 
+		min-height: 150px;
+		width: 550px;
+	}
+	
+	section#main table#board tr td#cont {
+		padding: 15px; 
+		min-height: 150px;
+	}
+	
+	section#main table#board tr td {
+		padding: 10px;
+	}
+	
+	section#main table td span.mName{
+		font-weight: bold;
+		color: #96b6ed;
+	}
+	
+	
+	section#main table#boardT tr td{
+		text-align: center;
+	}
+	
+	section#main table#boardT tr td.title {
+		text-align: left;
+		padding: 5px;
+		width: 300px;
+	}
+	
+	section#main table th {
+		background-color: #96b6ed;
+		border-color: #fdfdfd;
+		color: #fdfdfd;
+		height: 20px;
+	}
+	
+	section#main table td#intro {
+		min-height: 150px;
+	}
+	
+	section#main table#answer tr td#aContent{
+		text-align: left;
+		padding: 20px;
+	}
+	
+	section#main table#answer {
+		min-height: 100px;
+	}
+	
+	section#main table#answer td{
+		text-align: center;
+		min-height: 30px;
+	}
+	
+	section#main table#answer td .answer{
+		margin: 10px;
+		padding: 10px;
+	}
+	
+	section#main table#answer tr td.deleteBtn {
+		border-top: none;
+		text-align: right;
+		padding: 10px;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	
+	section#main table#answer tr td#aContent {
+		border-bottom: none;
+		margin-bottom: 0;
+	}
+	
+	section#main #title {
+		font-size: 20px;
+		color: #5f5f5f;
+		margin: 30px auto;
+		font-weight: bold;
+	}
+	
+	section#main table#update,
+	section#main table#write  {
+		width: 550px;
+	}
+	
+	section#main table#updateN {
+		width: 550px;
+	}
+	
+	section#main table#update td,
+	section#main table#write td  {
+		text-align: center;
+		padding: 5px;
+		margin: 0;
+	}
+	
+	section#main table#updateN td{
+		text-align: center;
+		padding: 5px;
+		margin: 0;
+	}
+	
+	section#main table#updateN td.title {
+		text-align: left;
+		padding-left: 20px;
+	}
+	
+	section#main table#updateN th {
+		width: 100px;
+	}
+	
+	section#main table#updateN td input {
+		width: 300px;
+	}
+	
+	section#main table#update td:nth-child(2),
+	section#main table#write td:nth-child(2){
+		text-align: left;
+	}
+	
+	section#main table#update td.btn,
+	section#main table#write td.btn {
+		border-top: none;
+		text-align: center;
+		border-bottom: none;
+		padding: 10px;
+		margin: 10px;
+	}
+	
+	section#main table#update td.btnTop, 
+	section#main table#write td.btnTop  {
+		border-bottom: none;
+		padding: 3px;
+		margin: 0;
+		text-align: center;
+	}
+	
+	section#main table#update tr:last-child,
+	section#main table#write tr:last-child {
+		height: 20px;
+		margin-bottom: 5px;
+	}
+	
+	section#main table#update td input.title,
+	section#main table#write td input.title {
+		width: 360px;
+	}
+	
+	section#main table#aForm {
+		text-align: center;
+	}
+	
+	section#main table#aForm tr td:nth-child(1) {
+		text-align: center;
+		border-bottom: none;
+		padding: 5px;
+		margin: 0;
+	}
+	
+	section#main table#aForm tr td:last-child {
+		border-top: none;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	
+	section#main table.noticeList tr td {
+		text-align: center;
+		padding: 0;
+	}
+	
+	section#main table.noticeList tr td.title {
+		text-align: left;
+		padding-left: 10px;
+	}
+	
+	section#main table#nDetail tr td {
+		padding: 10px;
+	}
+	
+	
+	section#main table#nDetail tr td.nBtn {
+		text-align: center;
+	}
+	
+	section#main table#nDetail tr td pre {
+		min-height: 150px;
+	}
+	
+	section#main h3.nTitle {
+		font-size: 20px;
+		margin: 30px auto;
+	}
+	
+	section#main div.nBtn {
+		width: 100%; 
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	section#main a#nBtn button {
+		margin: 20px  auto;
+		width: 100px;
+	}
+	
+	section#main #mName {
+		font-size: 30px;
+		color : #5f5f5f;
+		font-weight: bold;
+	}
+	
+	section#main hr {
+		height: 2px;
+		background-color: #96b6ed;
+		border-color: #96b6ed;
+		border-radius: 2px;
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	button {
+		border-style: none;
+		background-color: #96b6ed;
+		color: white;
+		height: 30px;
+		width: 150px;
+		line-height: 30px;
+		border-radius: 15px;
+		padding: 0 2px 0 2px;
+		margin: 0;
+		font-size: 15px;
+	}
+	
+	section#main button:hover,
+	section#error button:hover {
+		color: #ae8664;
+		background-color: #b1caf1;
+		cursor: pointer;	
+		font-weight: bold;
+	}
+	
+	section#main .btnBox {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+	}
+	
+	section#main .btnBox button {
+		width: 50px;
+		margin: 5px;
+		align-content: flex-end;
+		
+	}
+	
+	section#main a, 
+	section#error a {
+		text-decoration: none;
+		color: #5f5f5f;
+	}
+	
+	section#main a:hover, 
+	section#error a:hover {
+		cursor: pointer;
+		color: #ae8664;
+		font-weight: bold;
+	}
+	
+	section#main a.selected {
+		font-weight: bold;
+		color: #ae8664;
+	}
+	
+	section#main a span#complete {
+		color: #ae8664;
+		font-weight: bold;
+	}
+
+	section#main table.profile {
+		display: inline-table;
+		width: 400px;
+		text-align: center;
+		padding: 0;
+		margin: 20px auto;
+	}
+	
+	section#main table.profile td:nth-child(1), 
+	section#main table.profile td:nth-child(2) {
+		width: 200px;
+		padding: 0 auto;
+		height: 50px;
+	}
+	
+	section#main table.profile td{
+		padding: auto;
+		text-align: center;
+	}
+	
+	
+	section#main table#mentorP {
+		width: 550px;
+		padding: 0;
+	}
+	
+	section#main table#mentorP tr{
+		padding: 0;
+		margin: 0 auto;
+	}
+	
+	section#main table#mentorP tr td.none {
+		background-color: #fdfdfd;
+		text-align: center;
+	}
+	
+	section#main table#mentorP tr th {
+		padding: 0;
+		margin: 0 auto;
+		width: 110px;
+	}
+	
+	section#main table#mentorP tr td {
+		padding: 5px;
+		margin: 0 auto;
+		width: 120px;
+	}
+	
+	section#main table#mentorP tr td.btn{
+		text-align: center;
+	}
+	
+	section#main table#mentorP tr td#intro{
+		text-align: center;
+	}
+	
+	section#main table#mentorP tr td.intro{
+		padding: 20px;
+	}
+	
+	section#main table#mentorP tr td#introM{
+		text-align: center;
+		border-bottom: none;
+	}
+	
+	section#main table#mentorP tr td#introM h4{
+		margin: 5px auto;
+		padding: 0;
+	}
+		
+	section#main table#mentorP tr td.btn{
+		border-top: none;
+	}
+	
+	section#main table#mentorP tr th.lang {
+		width: 130px;
+	}
+	
+	section#main table.login{
+		height: 300px;
+	}
+	
+	section#main table.login tr td{
+		text-align: center;
+		padding: 5px auto;
+		margin: 0 auto;
+	}
+	
+	section#main table.login tr:last-child{
+		padding: 5px;
+		margin: 0 auto;
+		height: 30px;
+	}
+	
+	section#main table.login tr td input#box{
+		padding: 0;
+		margin: 5px auto;
+		width: 300px;
+		height: 30px;
+		border: none;
+	}
+	
+	section#main table.login tr td#role{
+		text-align: left;
+		padding-left: 60px;
+	}
+	
+	section#main table.login tr td.lang{
+		text-align: left;
+		padding-left: 40px;
+	}
+	
+	section#main table.login tr th h3{
+		margin: 5px auto;
+		padding: 0;
+	}
+	
+	/* 인덱스 페이지 */
+	
+	section#index {
+		width: 800px;
+		height: 400px;
+		text-align: center;
+		line-height: 400px;
+		padding: 0;
+		margin: 100px auto;
+	}	
+	
+	section#index div.box {
+		width: 700px;
+		height: 300px;
+		text-align: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	
+	section#index div.box div#mentorBox,
+	section#index div.box div#menteeBox {
+		display: inline-block;
+		background-color: #fdfdfd;
+		border: 3px solid;
+		border-color: #96b6ed;
+		border-radius: 20px;
+		height: 250px;
+		line-height: 250px;
+		width: 250px;
+		margin: 20px;
+		text-align: center;
+		align-items: center;
+	}
+	
+	section#index div.box div#mentorBox:hover,
+	section#index div.box div#menteeBox:hover {
+		background-color: #96b6ed;
+		border-color: #ae8664;
+		border-width: 5px;
+		height: 270px;
+		line-height: 270px;
+		width: 270px;
+		cursor: pointer;
+		text-align: center;
+	}
+	
+	section#index div.box div span.role {
+		font-size: 50px;
+		font-weight: bold;
+		color: #96b6ed;
+	}
+	
+	
+	section#index div.box div span {
+		font-size: 20px;
+		font-weight: bold;
+		color: #96b6ed;
+		text-align: center;
+		align-items: center;
+	}
+	
+	section#index div.box div:hover span{
+		font-weight: bold;
+		color: #fdfdfd;
+	}
+	
+	
+	
+	/* 에러 페이지 */
+	section#error{
+		text-align: center;
+		display: flex;
+	}
+	
+	section#error div#text {
+		background-color: #fdfdfd;
+		border: 3px solid;
+		border-color: #96b6ed;
+		border-radius: 3px;
+		width: 530px;
+		height: 300px;
+		text-align: center;
+		line-height: 300px;
+		align-items: center;
+		margin: 50px auto;
+		padding: 10px;
+	}
+	
+	section#error div#text h1, h3, h4 {
+		margin: 0 auto;
+		padding: 10px;
+		width: 300px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	section#error div#text h1 {
+		margin-top: 60px;
+	}
+	
+	section#error div#text h3 {
+		margin-bottom: 20px;
+	}
+	
+	section#error div#text h4 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		padding: 0;
+		height: 60px;
+	}
+	
+	section#error div.btnBox {
+		height: 60px;
+		line-height: 60px;
+	}
+	
+	section#error a button {
+		margin: 0;
+		padding-top: 0;
+		width: 120px;
+	}
+	
+	
+/* 김진주 */
+/* memberDeleteForm 문구*/
+.form-guide {
+    text-align: center;
+    font-size: 15px;
+    color: #ae8664;     
+    font-weight: bold;
+}
+
+/*login.jsp*/
+.link-black{
+	text-decoration: none;
+	color:black;
+}

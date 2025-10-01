@@ -1,0 +1,183 @@
+@charset "UTF-8";
+	/* 민서진 */
+ 	.member-list table,
+	.member-info table,
+	.member-update-form table{
+	 	border-collapse: collapse;
+		border-color: #96b6ed;
+		background-color: #fdfdfd;
+		width: 50%; 
+		margin: 30px auto;
+		border-left: none;
+		border-right: none;
+		color: #5f5f5f; 
+		
+	} 
+	
+ 	.member-list th,
+	.member-info th,
+	.member-update-form th
+	{	
+		background-color: #96b6ed;
+		border-color: #fdfdfd;
+		color: #fdfdfd;
+		text-align: center;
+		vertical-align: middle; 
+	} 
+	
+	.member-list .list-title,
+	.member-info .detail,
+	.member-update-form .update {
+		padding-top: 13px;
+	}
+	
+	
+	.member-list td,
+	.member-info td,
+	.member-update-form td {
+	    text-align: center;      
+	    vertical-align: middle;  
+	}
+	
+	
+ 	 .member-list tr:hover {
+		background-color: #f0f8ff;  
+		cursor: pointer;
+		transition: background-color 0.2s ease;
+	}  
+	
+	
+	.member-list tr:nth-child(1):hover,
+	.member-list tr:nth-child(2):hover,
+	.member-list tr:last-child:hover,
+	.member-info tr:nth-child(1):hover,
+	.member-info tr:last-child:hover,
+	.member-update-form tr:nth-child(1):hover,
+	.member-update-form tr:last-child:hover
+	{
+		cursor: default;
+	}
+		
+		
+	.member-list div.member-num:hover,
+	.member-list div.member-id:hover,
+	.member-list div.member-name:hover,
+	.member-list div.member-role:hover {
+		color: #ae8664;
+	}
+	
+ 	.member-list tr.page-num {
+		background-color: #96b6ed; 
+		height: 40px;
+	} 
+	
+	.member-list tr.page-num a{
+		 color: white; 
+	}
+	
+	.member-list tr.page-num a:hover{
+		background-color: rgba(0, 63, 127, 0.2);
+		color: #003f7f;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+	
+	.member-list .page-num a.active {
+		color: #003f7f;
+		font-weight: bold;
+	}
+		 
+	.member-list th:first-child, 
+	.member-update-form th:first-child, 
+	.member-update-form th:last-child,
+	.member-info th:first-child,
+	.member-info th:last-child 
+	 {
+		height: 50px;
+	}
+	
+	
+	.member-container {
+		max-width: 1000px;
+		max-height: 700px;
+	 	margin: 100px auto;
+	  	border-radius: 15px;
+	  	font-size: 17px;   
+	}
+	
+	
+	.member-btn {
+		color: white;
+		font-weight: bold;
+	}
+	
+	
+	.member-btn.edit:hover {
+		color: #003f7f;
+		background-color: rgba(0, 63, 127, 0.2);
+		border-radius: 5px;
+		
+	}
+	
+	.member-btn.delete:hover {
+		color: #e63946;
+		background-color: rgba(230, 57, 70, 0.2);
+		border-radius: 5px;
+	}
+	
+	
+	.member-edit-container {
+		max-width: 1000px;
+		max-height: 500px;
+		margin: 100px auto;
+	  	border-radius: 15px;
+	}
+
+	
+  	.member-update-form input {
+		border: none;
+		border-bottom: 1px solid #aaa;
+		outline: none;
+		padding: 8px;
+		transition: border-color 0.3s;
+	} 
+	
+	
+ 	.member-update-form input:focus {
+	 	border-bottom: 2px solid #003f7f;
+	}  
+	
+	
+	.member-update-form input[type="text"] {
+ 		width: 100%;  
+ 		max-width: 300px;
+  		box-sizing: border-box;
+		font-size: 17px;
+		color: #5f5f5f;
+		
+	}
+	
+	.member-update-form th.update-btn {
+		cursor: default;
+	}
+	
+  	.member-update-form .updateBtn {
+		float: right;
+		margin-right: 50px;
+		padding: 6px 14px;
+		font-size: 17px;
+		line-height: 17px;
+		color: #003f7f;
+		font-weight: bold;
+		background-color: #96b6ed;
+		border: none;
+		border-radius: 5px;
+		transition: background-color 0.1s ease;
+	} 
+	
+	
+	.member-update-form .updateBtn:hover {        
+		background-color: rgba(0, 63, 127, 0.2);
+		border: 1px solid white;
+		cursor: pointer;
+	}
