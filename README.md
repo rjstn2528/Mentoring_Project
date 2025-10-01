@@ -77,11 +77,13 @@
 <div align="center">
   
 <br>
-Java / JSP / HTML5 / CSS3
+Java / JSP / HTML5 / CSS3 </br>
+<br>
 JavaScript / Spring Framework
+</br>
+<br>
 Apache Tomcat / Oracle DB / Maven
-
-<br><br>
+</br>
 </div>
 
 ## Language & Framework / Library
