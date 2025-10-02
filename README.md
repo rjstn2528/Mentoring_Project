@@ -72,12 +72,14 @@
 
 -----------------------------------------------------------------------------------------------------------------
 
-<br>
-# 📝 **ERD**
+---
+
 # 📝 **ERD**
 
+![ERD 이미지](https://github.com/rjstn2528/Mentoring_Project/blob/main/1번.png?raw=true)
 
-![설명 텍스트](https://github.com/rjstn2528/Mentoring_Project/blob/main/1번.png?raw=true)
+---
+
 
 <br>
 
